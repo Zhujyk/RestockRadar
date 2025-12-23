@@ -1,8 +1,8 @@
 import os
 from dotenv import load_dotenv
 
-# Load environment variables from env.env
-load_dotenv("env.env")
+# Load environment variables from env.env to run locally to test
+# load_dotenv("env.env")
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 465
