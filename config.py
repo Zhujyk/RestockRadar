@@ -9,7 +9,7 @@ EMAIL_TO = os.getenv("SMTP_TO")
 SMTP_PASSWORD = os.getenv("SMTP_PASSWORD")
 SMTP_USERNAME = os.getenv("SMTP_USERNAME")
 
-PRODUCT_URL = os.getenv("product_url")
+PRODUCT_URL = os.getenv("PRODUCT_URL")
 
 HEADERS = {
     "User-Agent": (
