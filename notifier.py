@@ -8,7 +8,7 @@ def send_notification():
         return
 
     msg = EmailMessage()
-    msg["Subject"] = "🚨 Product Available"
+    msg["Subject"] = "🚨Product Available🚨"
     msg["From"] = EMAIL_FROM
     msg["To"] = EMAIL_TO
     msg.set_content(f"Good news! The product at {PRODUCT_URL} is now available!")

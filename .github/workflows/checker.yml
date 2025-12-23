@@ -2,8 +2,8 @@ name: Product Availability Checker
 
 on:
   schedule:
-    # Every 12 hours
-      - cron: "0 */8 * * *"
+     # Every day at 9am
+      - cron: "0 9 * * *"
   workflow_dispatch:  # allows manual trigger
 
 jobs:

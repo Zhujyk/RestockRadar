@@ -1,4 +1,8 @@
 import os
+from dotenv import load_dotenv
+
+# Load environment variables from env.env
+load_dotenv("env.env")
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 465
@@ -18,8 +22,6 @@ HEADERS = {
         "Chrome/120.0 Safari/537.36"
     )
 }
-
-# CSS selector that ONLY exists when product is available
 AVAILABILITY_SELECTOR = "Disponibilidade estimada"
 
 STATE_FILE = "state.json"

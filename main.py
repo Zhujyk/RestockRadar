@@ -12,9 +12,8 @@ def run():
 
     available_before = load_previous_state()
 
-    # if available_now and not available_before:
-    #     send_notification()
-    send_notification()
+    if available_now:
+        send_notification()
 
     save_current_state(available_now)
 

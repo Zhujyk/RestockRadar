@@ -16,7 +16,9 @@ def is_product_available() -> bool:
     for text_node in soup.stripped_strings:
         text = text_node.lower()
         if text.startswith(AVAILABILITY_SELECTOR.lower()):
-            
-            return True
+            print(f"Is not available!")
+            return False
+
+    print("Is available!")
+    return True
     
-    return False
