@@ -1,5 +1,5 @@
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 
 # Load environment variables from env.env to run locally to test
 # load_dotenv("env.env")
