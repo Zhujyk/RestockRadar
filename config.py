@@ -1,6 +1,5 @@
 from dotenv import load_dotenv
 import os
-load_dotenv("env.env") 
 
 SMTP_HOST = "smtp.gmail.com"
 SMTP_PORT = 465
