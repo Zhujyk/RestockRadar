@@ -26,9 +26,9 @@ jobs:
 
       - name: Run product checker
         env:
-          GMAIL_USERNAME: ${{ secrets.GMAIL_USERNAME }}
-          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           PRODUCT_URL: ${{ secrets.PRODUCT_URL }}
-          EMAIL_TO: ${{ secrets.EMAIL_TO }}
+          SMTP_TO: ${{ secrets.SMTP_TO }}
         run: |
           python main.py
